@@ -81,9 +81,19 @@
                 <label class="form-label" for="customFile">Default file input example</label>
                 <input type="file" accept=".pdf" class="form-control" id="customFile" />
 
-                <br> <br>
+                <br>
 
-                <img width="355" src="https://media.discordapp.net/attachments/366392960973012992/1169049190115061850/image.png?ex=6553fce6&is=654187e6&hm=54b1a316ceb07cdb80a217be16b6756939c19d38116903b8359c8067ed4aeed1&=&width=940&height=1124">
+                PDF ChatBot
+                <br><hr>
+                <script type="module">
+                  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+                  Chatbot.init({
+                      chatflowid: "63b9a0e5-545b-4909-819c-e46cdf0f6877",
+                      apiHost: "http://20.120.185.39:3000",
+                  })
+              </script>
+              
+                <!-- <img width="355" src="https://media.discordapp.net/attachments/366392960973012992/1169049190115061850/image.png?ex=6553fce6&is=654187e6&hm=54b1a316ceb07cdb80a217be16b6756939c19d38116903b8359c8067ed4aeed1&=&width=940&height=1124"> -->
             </div>
             <div class="col-md-8">
               <br>
